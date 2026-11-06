@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3170"/>
+      <stop offset="1" stop-color="#121733"/>
+    </linearGradient>
+    <mask id="crescent">
+      <rect width="512" height="512" fill="#fff"/>
+      <circle cx="318" cy="200" r="118" fill="#000"/>
+    </mask>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- crescent moon -->
+  <circle cx="246" cy="262" r="140" fill="#ffd98a" mask="url(#crescent)"/>
+  <!-- stars -->
+  <g fill="#ffe9b8">
+    <path d="M366 226 l9 22 22 9 -22 9 -9 22 -9 -22 -22 -9 22 -9z"/>
+    <path d="M330 150 l6 14 14 6 -14 6 -6 14 -6 -14 -14 -6 14 -6z" opacity=".85"/>
+    <circle cx="400" cy="210" r="7" opacity=".8"/>
+  </g>
+</svg>
